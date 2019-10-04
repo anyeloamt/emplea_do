@@ -6,9 +6,7 @@
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
   <ItemGroup>
-    <Folder Include="Framework\" />
     <Folder Include="Framework\Constants\" />
-    <Folder Include="Framework\Dto\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Framework\Dto\NearbyJobOpportunityLocation.cs" />
